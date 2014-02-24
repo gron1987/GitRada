@@ -4,7 +4,7 @@
     <list default="true" id="a4cdc420-9bfb-4988-b1f5-c3e8c52545d0" name="Default" comment="" />
     <ignored path="GitRada.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/parse.php" changelist="a4cdc420-9bfb-4988-b1f5-c3e8c52545d0" time="1393275752242" ignored="false" />
+    <file path="/parse.php" changelist="a4cdc420-9bfb-4988-b1f5-c3e8c52545d0" time="1393276609914" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +27,7 @@
       <file leaf-file-name="parse.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/parse.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="5" selection-start="2697" selection-end="2697" vertical-scroll-proportion="0.76">
+            <state line="43" column="34" selection-start="1297" selection-end="1297" vertical-scroll-proportion="0.61">
               <folding>
                 <element signature="e#6#95#0" expanded="true" />
               </folding>
@@ -223,7 +223,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/parse.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="5" selection-start="2697" selection-end="2697" vertical-scroll-proportion="0.76">
+        <state line="43" column="34" selection-start="1297" selection-end="1297" vertical-scroll-proportion="0.61">
           <folding>
             <element signature="e#6#95#0" expanded="true" />
           </folding>

@@ -41,6 +41,7 @@ function getData($link = ""){
     // Check we have paginator.
     if( strpos($data,'наступна сторінка') > 0 ){
         preg_match('/<a href="(.*?)\s?" title="наступна сторінка">наступна сторінка<\/a>/',$data,$page);
+        print_r("Get next page ...");
         $result .= getData($page[1]);
     }
 
@@ -88,13 +89,13 @@ function parse($data = "") {
     return trim($container);
 }
 
-$data = getData("/laws/show/254к/96-вр/conv");
+$data = getData("/laws/show/4495-17/conv");
 preg_match("/<span class=rvts78>(.+?)\s?<\/span>/i",$data,$name);
 print_r($name[1]);
 $result = parse($data);
 
 #print_r(strpos($data,'Знайти слова на сторiнцi'));
 
-file_put_contents($name[1].".txt",$result);
+file_put_contents($name[1].".md",$result);
 
 //echo $result;
